@@ -43,7 +43,7 @@ System.out.println("Enter the string to search ");
 str=in.readLine();
 j=obj.indexOf(str);
 if(j==-1)
-System.out.println("Element not found");
+System.out.println("Elements not found");
 else
 System.out.println("Index of:"+str+"is"+j);
 break;
